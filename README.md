@@ -45,3 +45,12 @@ Step 1: Loggin to heroku and click on `New ^`|  Step 2: Click on `Create new app
 Step 3: Give your app name and click on `Create app`|  Step 4: Click on `GitHub`
 :-------------------------------------------:|:-------------------------------------------:
 ![](heroku/3.PNG)                           |  ![](heroku/4a.jpg)
+
+Step 5: Now click on `Connect`
+:-------------------------------------------:
+![](heroku/4.jpeg)                           
+
+Step 6: Click on `Deploy`
+:-------------------------------------------:
+![](heroku/5.jpeg)
+
