@@ -38,10 +38,10 @@ Heroku is a platform as a service (PaaS) that enables developers to build, run, 
 ### Now follow the 5 simple steps. For deploying your website or web application.
 
 
-Step 1: Loggin to heroku and click on `New^` |  Step 2: Click on `Creat new app`
+Step 1: Loggin to heroku and click on `New ^`|  Step 2: Click on `Create new app`
 :-------------------------------------------:|:-------------------------------------------:
 ![](heroku/1.jpeg)                           |  ![](heroku/2.jpeg)
 
-Step 3: Loggin to heroku and click on `New^` |  Step 4: Click on `Creat new app`
+Step 3: Loggin to heroku and click on `New ^`|  Step 4: Click on `Creat new app`
 :-------------------------------------------:|:-------------------------------------------:
-![](heroku/3.jpeg)                           |  ![](heroku/4.jpeg)
+![](heroku/3.jpeg)                           |  ![](heroku/4a.jpeg)
