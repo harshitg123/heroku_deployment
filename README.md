@@ -42,6 +42,6 @@ Step 1: Loggin to heroku and click on `New ^`|  Step 2: Click on `Create new app
 :-------------------------------------------:|:-------------------------------------------:
 ![](heroku/1.jpeg)                           |  ![](heroku/2.jpeg)
 
-Step 3: Loggin to heroku and click on `New ^`|  Step 4: Click on `Creat new app`
+Step 3: Give your app name and click on `Create app`|  Step 4: Click on `GitHub`
 :-------------------------------------------:|:-------------------------------------------:
-![](heroku/3.jpeg)                           |  ![](heroku/4a.jpeg)
+![](heroku/3.PNG)                           |  ![](heroku/4a.jpg)
