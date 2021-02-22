@@ -35,7 +35,7 @@ Heroku is a platform as a service (PaaS) that enables developers to build, run, 
   git push origin main
   
 ```
-### Now follow the 5 simple steps. For deploying your website or web application.
+### Now follow the 6 simple steps. For deploying your website or web application.
 
 
 Step 1: Loggin to heroku and click on `New ^`|  Step 2: Click on `Create new app`
@@ -46,11 +46,11 @@ Step 3: Give your app name and click on `Create app`|  Step 4: Click on `GitHub`
 :-------------------------------------------:|:-------------------------------------------:
 ![](heroku/3.PNG)                           |  ![](heroku/4a.jpg)
 
-Step 5: Now click on `Connect`
-:-------------------------------------------:
-![](heroku/4.jpeg)                           
+Step 5: Now click on `Connect`             | Step 6: Click on `Deploy`
+:-----------------------------------------:|:-------------------------------------------:
+![](heroku/4.jpeg)                         | ![](heroku/5.jpeg)
 
-Step 6: Click on `Deploy`
-:-------------------------------------------:
-![](heroku/5.jpeg)
+
+
+
 
