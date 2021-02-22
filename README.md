@@ -7,13 +7,20 @@ Heroku is a platform as a service (PaaS) that enables developers to build, run, 
 1. In your  `server.js`  file. Add below mentioned code where your port is defined, This will randomly generate the port available on heroku.
 
 ```
-   let port = process.env.PORT
+  let port = process.env.PORT
       
-   if(port == null || port == ""){
-     port = 3000;
-   }
+  if(port == null || port == ""){
+    port = 3000;
+  }
 ```   
-     
+
+2. In your  `package.json`  file add the following command in `scripts` object.
+
+```
+  "scripts": {
+    "start": "node app.js"
+  }
+```
     
   
 
