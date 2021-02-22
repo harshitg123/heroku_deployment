@@ -23,4 +23,15 @@ Heroku is a platform as a service (PaaS) that enables developers to build, run, 
 ```
 
 ## Deploying from GitHub
-<p> Push your Repository on github </p>
+<p> On your git bash run following command to push your project on github repo. </p>
+
+```
+  git remote add origin https://github.com/<username>/<repository name>.git
+  
+  git add .
+  
+  git commit -m <commit msg in quotes "" or ''>
+  
+  git push origin main
+  
+```
