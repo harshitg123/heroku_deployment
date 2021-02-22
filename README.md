@@ -52,10 +52,10 @@ Step 5: Search the repo you want to deploy & click on `Connect` | Step 6: Scroll
 
 If you have followed these six steps ☝️ to deploy, you would have successfully deployed your web application or website. After that heroku will give you the option to see your deployed app on the top & bottom.  
 
-# Deploying from heroku CLI & command Line.
+# Deploying from heroku CLI & Command Line.
 
 # Environment variables `.env` file
-Now, If you are having some type of secrets / environment variables in `.env` file then you might come up with unsuccessful deployment i.e whenever you open your app, your app may crash. So we have to set those secrets / environment variable on heroku, heroku will keep those as secret. Heroku has something called `Config Vars` which is same as enviroment variable so we need to provide the `KEY=VALUE` present in `.env` file.
+If you are having some type of secrets / environment variables in `.env` file then you might come up with unsuccessful deployment i.e whenever you open your app, your app may crash. So we have to set those secrets / environment variable on heroku, heroku will keep those as secret. Heroku has something called `Config Vars` which is same as enviroment variable so we need to provide the `KEY=VALUE` present in `.env` file.
 
 1. After deploying your app go to `setings`.
 2. scroll down a bit you will find `Config Vars` button.
