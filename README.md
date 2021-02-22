@@ -14,16 +14,13 @@ Heroku is a platform as a service (PaaS) that enables developers to build, run, 
   }
 ```   
 
-2. In your  `package.json`  file add the following command in `scripts` object.
+2. In your  `package.json`  file add the following command in `scripts` object, Follow this step if you want to deploy from github, Otherwise skip this step.    
 
 ```
   "scripts": {
     "start": "node app.js"
   }
 ```
-   
-Note: follow this step if you want to deploy from github, Otherwise skip this step.    
-  
 
 ## Deploying from GitHub
 <p> Push your Repository on github </p>
