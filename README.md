@@ -1,2 +1,2 @@
-# heroku_deployment
-Quick guide on how to deploy web apps on heroku.
+# Heroku
+Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
