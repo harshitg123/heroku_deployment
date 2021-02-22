@@ -1,4 +1,4 @@
-# Heroku  <img src="heroku/heroku.png"/> 
+# Heroku <img align="left" width="48" height="48" src="heroku/heroku.png"> 
 
 Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
 
@@ -54,7 +54,13 @@ If you have followed these six steps ☝️ to deploy, you would have successful
 
 # Deploying from heroku CLI & command Line.
 
-## Enviroment variables `.env` file
-Now, If you are having some type of secrets / environment variables in `.env` file then you might come up with unsuccessful deployment i.e whenever you open your app, may crash.
+# Environment variables `.env` file
+Now, If you are having some type of secrets / environment variables in `.env` file then you might come up with unsuccessful deployment i.e whenever you open your app, your app may crash. So we have to set those secrets / environment variable on heroku, heroku will keep those as secret. Heroku has something called `Config Vars` which is same as enviroment variable so we need to provide the `KEY=VALUE` present in `.env` file.
 
+1. After deploying your app go to `setings`.
+2. scroll down a bit you will find `Config Vars` button.
+3. Click on it and add your `KEY=VALUE`.
+4. Now click on `Save`.
+
+<img align="center" src="heroku/6.png"> 
 
