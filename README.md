@@ -21,7 +21,8 @@ Heroku is a platform as a service (PaaS) that enables developers to build, run, 
     "start": "node app.js"
   }
 ```
-    
+   
+Note: follow this step if you want to deploy from github, Otherwise skip this step.    
   
 
 ## Deploying from GitHub
