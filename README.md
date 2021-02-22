@@ -3,8 +3,20 @@ Heroku is a platform as a service (PaaS) that enables developers to build, run, 
 
 ## Prepare Your Application.
 <p> You have to make modification in two files for able to deploy your application on heroku. </p>
- In your `server` file.
+ 
+ 1. In your `server.js` file.
+    Add below mentioned code where your port is defined
 
+ ```
+    let port = process.env.PORT
+      
+    if(port == null || port == ""){
+      port = 3000;
+    }
+ ```   
+     
+    
+  
 
 ## Deploying from GitHub
 <p> Push your Repository on github </p>
