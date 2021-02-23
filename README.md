@@ -3,7 +3,7 @@
 Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
 
 ## Prepare Your Application.
-<p> You have to make modification in two files for able to deploy your application on heroku. </p>
+You have to make modification in two files and make one `Procfile` for able to deploy your application on heroku.
  
 1. In your  `server.js`  file. Add below mentioned code where your port is defined, This will randomly generate the port available on heroku.
 
@@ -21,6 +21,12 @@ Heroku is a platform as a service (PaaS) that enables developers to build, run, 
   "scripts": {
     "start": "node app.js"
   }
+```
+
+3. You need to make a file `Procfile` in your root directory follow strict naming convention otherwise it won't work. Do not give any extention to `Procfile`. Want to know mor      about <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs#define-a-procfile">Procfile</a> follow this documentation. Add the following command in          Procfile from your text editor.
+
+```
+  web: npm start
 ```
 
 ## Deploying from GitHub
