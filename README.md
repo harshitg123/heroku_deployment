@@ -15,7 +15,7 @@ You have to make modification in two files or you can make one new file, `Procfi
   }
 ```   
 
-2. In your  `package.json`  file add the following command in `scripts` object, Follow this step if you want to deploy from github, Otherwise skip this step.    
+2. In your  `package.json`  file add the following command in `scripts` object.    
 
 ```
   "scripts": {
