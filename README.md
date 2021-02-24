@@ -68,6 +68,7 @@ The Heroku Command Line Interface (CLI) makes it easy to create and manage your 
 Download and instal Heroku CLI from <a href="https://devcenter.heroku.com/articles/heroku-cli#:~:text=The%20Heroku%20Command%20Line%20Interface,essential%20part%20of%20using%20Heroku.">HEROKU CLI</a>. Now we need to install Git from <a href="https://git-scm.com/">GIT</a>.
 <p>After Installing Heroku CLI & GIT follow below mentioned steps.</p>
   <br/>
+  
   Step 1: Open `Git bash` on your project folder by right clicking on mouse. <br/> <br/>
   Step 2: Initialize your project folder with empity git repository by typing command `git init`.<br/> <br/>
   Step 3: Now add your files into staging area, Run this `git add .` command to add all file in staging area. <br/>  <br/>
