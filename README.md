@@ -68,12 +68,14 @@ The Heroku Command Line Interface (CLI) makes it easy to create and manage your 
 Download and instal Heroku CLI from <a href="https://devcenter.heroku.com/articles/heroku-cli#:~:text=The%20Heroku%20Command%20Line%20Interface,essential%20part%20of%20using%20Heroku.">HEROKU CLI</a>. Now we need to install Git from <a href="https://git-scm.com/">GIT</a>.
 <p>After Installing Heroku CLI & GIT follow below mentioned steps.</p>
 
+```
   Step 1: Open `Git bash` on your project folder by right clicking on mouse. <br/> <br/>
   Step 2: Initialize your project folder with empity git repository by typing command `git init`.<br/> <br/>
   Step 3: Now add your files into staging area, Run this `git add .` command to add all file in staging area. <br/>  <br/>
   Step 4: Now commit your files using this `git commit -m <your_message>` command. <br/> <br/>
   Step 5: Run `heroku create` command, This will create an app on heroku which will receive our source code. <br/> <br/>
   Step 6: Run `git push heroku master` command, This will push our source code on app in heroku.
+```
 
 # Environment variables `.env` file
 If you are having some type of secrets / environment variables in `.env` file then you might come up with unsuccessful deployment i.e whenever you open your app, your app may crash. So we have to set those secrets / environment variable on heroku, heroku will keep those as secret. Heroku has something called `Config Vars` which is same as enviroment variable so we need to provide the `KEY=VALUE` present in `.env` file.
