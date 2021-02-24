@@ -71,7 +71,7 @@ Step 1: Open `Git bash` on your project folder by right clicking on mouse. | Ste
 :-------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------:
 ![](GitBash/1.PNG)                                                         | ![](GitBash/2.PNG)
 
-Step 3: Add files into staging area, Run this `git add .` command to add all file in staging area. | Step 4: Commit files using this `git commit -m <your_message>` command, Enter your message in double quotes.
+Step 3: Now add your files into staging area, Run this `git add .` command to add all file in staging area. | Step 4: Now Commit your files using this `git commit -m <your_message>` command, Enter your message in double quotes.
 :-------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------:
 ![](GitBash/3.PNG)                                                         | ![](GitBash/4.PNG)
 
