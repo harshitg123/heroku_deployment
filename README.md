@@ -35,7 +35,7 @@ You have to make modification in two files or you can make one new file, `Procfi
 Note: In 2 point `app.js` is my server file you can change the name of `app.js` to whatever name you given to your server file. 
 
 # Deploying from GitHub
-<p> On your git bash run following command to push your project on github repo. </p>
+<p> On your git bash run following command to push your project on github repository. </p>
 
 ```
   git remote add origin https://github.com/<username>/<repository_name>.git
@@ -67,7 +67,7 @@ If you have followed these six steps ☝️ to deploy, you would have successful
 The Heroku Command Line Interface (CLI) makes it easy to create and manage your Heroku apps directly from the terminal. It's an essential part of using Heroku.
 Download and instal Heroku CLI from <a href="https://devcenter.heroku.com/articles/heroku-cli#:~:text=The%20Heroku%20Command%20Line%20Interface,essential%20part%20of%20using%20Heroku.">HEROKU CLI</a>. Now we need to install Git from <a href="https://git-scm.com/">GIT</a>. After Installing Heroku CLI & GIT follow below mentioned steps.
   
-Step 1: Open `Git bash` on your project folder by right clicking on mouse. | Step 2: Initialize your project folder with empity git repository by typing command `git init`.
+Step 1: Open `Git bash` on your project folder by right clicking on mouse. | Step 2: Initialize your project folder with empty git repository by typing command `git init`.
 :-------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------:
 ![](GitBash/1.PNG)                                                         | ![](GitBash/2.PNG)
 
@@ -79,7 +79,7 @@ Step 5: Enter `heroku login` command, This command will open browser for logging
 :----------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------:  
 ![](GitBash/5.PNG)                                                                              | ![](GitBash/6.PNG)
 
-Step 7: Run `git push heroku main` command, This will push our source code on app in heroku.
+Step 7: Run `git push heroku main` command, This will push our source code on app into heroku.
 :----------------------------------------------------------------------------------------------:
 ![](GitBash/7.PNG) 
 
